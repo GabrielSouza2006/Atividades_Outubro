@@ -1,0 +1,25 @@
+package Atividades;
+
+import java.util.Scanner;
+
+public class Atividade4 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		String[] vet = new String[5];
+		
+		System.out.println("Digite 10 números: ");
+		for(int x=0; x<10; x++) {
+			vet[x] = sc.next(); 
+			
+		}
+		
+		System.out.println("Números digitados: ");
+		for(int x=0; x<10; x++) {
+			System.out.println(vet[x]);
+		}
+
+	}
+
+}

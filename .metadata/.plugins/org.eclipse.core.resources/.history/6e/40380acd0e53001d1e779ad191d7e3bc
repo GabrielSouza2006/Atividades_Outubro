@@ -1,0 +1,32 @@
+package Atividades;
+
+import java.util.Scanner;
+
+public class Atividade6 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		String[] nome = new String[1];
+		String[] email = new String[1];
+		int[] idade = new int[1];
+		
+		System.out.println("Digite primero o nome, depois email e idade: ");
+		for(int x=0; x<1; x++) {
+			nome[x] = sc.next(); 
+			email[x] = sc.next();
+			idade[x] = sc.nextInt();
+		}
+		
+		
+		for(int i=0; i<1 ;i++) {
+			System.out.print("Nome: ");
+			System.out.println(nome[i]);
+			System.out.print("email: ");
+			System.out.println(email[i]);
+			System.out.print("Idade: ");
+			System.out.println(idade[i]);
+		}
+	}
+
+}

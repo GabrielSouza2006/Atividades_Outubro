@@ -1,0 +1,23 @@
+package Atividades;
+
+import java.util.Scanner;
+
+public class Atividade7 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("digite a quantidade de alunos: ");
+		int x = sc.nextInt();
+		String[] nome = new String[x];
+		
+		for(int i=0; i<x; i++) {
+			nome[i] = sc.next();
+		}
+		
+		for(int i=0; i<x; i++) {
+			System.out.println(nome[i]);
+		}
+	}
+
+}
